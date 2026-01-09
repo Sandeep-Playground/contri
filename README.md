@@ -69,11 +69,6 @@ jobs:
   audit:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
-        with:
-          repository: org-name/repo-name
-
       - name: Run User Contribution Activity Report
         uses: <OWNER>/<REPO>@v1
         with:
